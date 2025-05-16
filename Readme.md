@@ -27,10 +27,10 @@
 
 
 <h1>Меню</h1>
-<img src="https://drive.google.com/file/d/1YN1zZ05f_-1Og4wE9YTpDq08qCxlaQrd/view?usp=sharing" />
+<img src="https://i.ibb.co/QFT4yYj2/2025-05-16-18-57-13.jpg" />
 
 <h1>Админка</h1>
-<img src="https://drive.google.com/file/d/1q-3cdusYAZvmID8Rd-_rnldj1RO01gNg/view?usp=sharing" />
+<img src="https://i.ibb.co/nNN1w7RG/2025-05-16-18-58-07.jpg" />
 
 
 <h3>Что можно улучшить?</h3>
