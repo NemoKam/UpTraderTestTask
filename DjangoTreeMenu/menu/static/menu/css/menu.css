@@ -1,0 +1,57 @@
+.menu {
+    display: grid;
+    width: 100%;
+    grid-auto-columns: auto;
+    gap: 5px;
+    text-transform: uppercase;
+}
+
+.menu_item_block {
+    display: flex;
+    flex-direction: row;
+}
+
+.active_menu_block {
+    font-weight: bold;
+}
+
+.menu_item_indent {
+    font-weight: 100 !important;
+}
+
+.menu_item,
+.create_menu_form {
+    margin-left: 5px;
+}
+
+.create_menu_form {
+    height: 30px !important;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+}
+
+.create_menu_form_input {
+    height: inherit !important;
+    padding: 5px;
+}
+
+.create_menu_form_button {
+    height: inherit !important;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    font-size: 20px;
+    line-height: 20px;
+    background: none !important;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.create_menu_form_button:hover {
+    background-color: rgb(178, 178, 178) !important;
+}
+
+.create_menu_form_indent {
+    line-height: 30px;
+}

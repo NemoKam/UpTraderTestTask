@@ -1,0 +1,9 @@
+<div class="menu_item_block" data-menu-level="{{ current_menu_child_level }}">
+    <p class="menu_item_indent create_menu_form_indent"></p>
+    <form method="post" class="create_menu_form">
+        {% csrf_token %}
+        <input type="hidden" name="father_id" value={{father_id}}>
+        <input type="text" name="title" class="create_menu_form_input" placeholder="Menu title">
+        <button type="submit" class="create_menu_form_button">+</button>
+    </form>
+</div>

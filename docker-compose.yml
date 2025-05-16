@@ -1,0 +1,40 @@
+services:
+  django:
+    build:
+      context: DjangoTreeMenu
+      dockerfile: Dockerfile
+    container_name: tree_menu_django
+    env_file:
+      - .env
+    volumes:
+      - static_volume:/menu/static
+      - media_volume:/menu/media
+    networks:
+      - tree_menu_network
+    restart: always
+
+  nginx:
+    image: nginx:1.27.0-alpine3.19
+    container_name: tree_menu_nginx
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/mime.types:/etc/nginx/mime.types:ro
+      - ./nginx/errors/:/errors:ro
+      - static_volume:/static:ro
+      - media_volume:/media:ro
+      - logs_volume:/logs:rw
+    networks:
+      - tree_menu_network
+    depends_on:
+      - django
+    ports:
+      - "8000:80"
+    restart: always
+
+volumes:
+  static_volume:
+  media_volume:
+  logs_volume:
+
+networks:
+  tree_menu_network:

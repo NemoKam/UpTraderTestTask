@@ -1,0 +1,26 @@
+MENU SIMPLE FILLED STRUCTURE
+
+Light
+├── Physical Light
+│   ├── Sunlight
+│   ├── Candlelight
+│   └── Flashlight
+│       └── Battery
+│           └── Power Source
+├── Weight Light
+│   ├── Lightweight
+│   │   └── Lightweight Material
+│   │       └── Aluminum
+│   └── Lightness
+├── Light as Mood
+│   ├── Lighthearted
+│   │   └── Cheerful
+│   └── Enlightened
+│       └── Enlightenment
+├── Actions
+│   ├── To light
+│   │   ├── Light a fire
+│   │   └── Light a candle
+│   └── To lighten
+│       ├── Lighten the mood
+│       └── Lighten the load

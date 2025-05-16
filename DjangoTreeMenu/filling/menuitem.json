@@ -1,0 +1,194 @@
+[
+{
+  "model": "menu.menuitem",
+  "pk": 1,
+  "fields": {
+    "title": "Light",
+    "father": null
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 2,
+  "fields": {
+    "title": "Physical Light",
+    "father": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 3,
+  "fields": {
+    "title": "Weight Light",
+    "father": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 4,
+  "fields": {
+    "title": "Light as Mood",
+    "father": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 5,
+  "fields": {
+    "title": "Actions",
+    "father": 1
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 6,
+  "fields": {
+    "title": "Sunlight",
+    "father": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 7,
+  "fields": {
+    "title": "Candlelight",
+    "father": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 8,
+  "fields": {
+    "title": "Flashlight",
+    "father": 2
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 9,
+  "fields": {
+    "title": "Battery",
+    "father": 8
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 10,
+  "fields": {
+    "title": "Power Source",
+    "father": 9
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 11,
+  "fields": {
+    "title": "Lightweight",
+    "father": 3
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 12,
+  "fields": {
+    "title": "Lightness",
+    "father": 3
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 13,
+  "fields": {
+    "title": "Lightweight Material",
+    "father": 11
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 14,
+  "fields": {
+    "title": "Aluminum",
+    "father": 13
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 15,
+  "fields": {
+    "title": "Lighthearted",
+    "father": 4
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 16,
+  "fields": {
+    "title": "Enlightened",
+    "father": 4
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 17,
+  "fields": {
+    "title": "Cheerful",
+    "father": 15
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 18,
+  "fields": {
+    "title": "Enlightenment",
+    "father": 16
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 19,
+  "fields": {
+    "title": "To light",
+    "father": 5
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 20,
+  "fields": {
+    "title": "To lighten",
+    "father": 5
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 21,
+  "fields": {
+    "title": "Light a fire",
+    "father": 19
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 22,
+  "fields": {
+    "title": "Light a candle",
+    "father": 19
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 23,
+  "fields": {
+    "title": "Lighten the mood",
+    "father": 20
+  }
+},
+{
+  "model": "menu.menuitem",
+  "pk": 24,
+  "fields": {
+    "title": "Lighten the load",
+    "father": 20
+  }
+}
+]

@@ -1,0 +1,35 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% load menu_tags %}
+
+{% block title %}Меню{% endblock %}
+
+{% block stylesheets %}
+<link rel="stylesheet" href="{% static 'menu/css/menu.css' %}" />
+{% endblock %}
+
+{% block main %}
+    <div class="menu">
+        <div class="menu_item_block" data-menu-level="0" data-menu-is_open="True" data-menu-url="">
+            <p class="menu_item_indent"></p>
+            <div class="menu_item">
+                <a href="/" class="menu_item_title">/</a>
+            </div>
+        </div>
+        {% for menu_item in menu_items %}
+            <div class="menu_item_block" data-menu-level="{{ menu_item.level }}" data-menu-is_open="{{ menu_item.is_open }}" data-menu-url="{{ menu_item.title }}">
+                <p class="menu_item_indent"></p>
+                <div class="menu_item">
+                    <a href="{{ menu_item.title }}" class="menu_item_title">{{ menu_item.title }}</a>
+                </div>
+            </div>
+            {% if menu_item.id == current_menu_id %}
+                {% draw_menu current_menu_id menu_item.level csrf_token %}
+            {% endif %}
+        {% endfor %}
+    </div>
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{% static 'menu/js/menu.js' %}"></script>
+{% endblock %}
