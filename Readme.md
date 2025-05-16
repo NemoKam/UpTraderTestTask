@@ -26,6 +26,13 @@
 <h3>http://127.0.0.1:8000/menu/</h3>
 
 
+<h1>Меню</h1>
+<img src="https://drive.google.com/file/d/1YN1zZ05f_-1Og4wE9YTpDq08qCxlaQrd/view?usp=sharing" />
+
+<h1>Админка</h1>
+<img src="https://drive.google.com/file/d/1q-3cdusYAZvmID8Rd-_rnldj1RO01gNg/view?usp=sharing" />
+
+
 <h3>Что можно улучшить?</h3>
 <ul>
     <li>Использовать базу данных - Posqtgresql</li>
